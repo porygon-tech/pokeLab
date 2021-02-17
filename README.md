@@ -10,3 +10,6 @@ RotomDex add-on for teams optimisation. Type vulnerability detection, moveset re
 ## Genealogy
 "genetic" distance from pokemon taking into account their typing, stats, moveset and more.
 re
+
+## BattleBot
+A pokemon showdown bot with an increasingly complex AI. It uses Selenium and firefox webdriver
