@@ -1,5 +1,5 @@
 # pokeLab
-Competitive pokémon battle-oriented research, correlation studies and more. Any collaborations are welcome! Especially focused on Smogon's Showdown community.
+Competitive pokémon battle-oriented research, correlation studies and more. Any collaborations are welcome! Mainly focused on Smogon's Showdown community.
 
 ------------
 ## Optimiser / damage lab
