@@ -2,7 +2,7 @@
 Pokemon battle-oriented research, correlation studies and more.
 
 ------------
-## Optimizer
+## Optimiser / damage lab
 Optimal spread for defensive Effort Values (EVs).
 
 ------------
