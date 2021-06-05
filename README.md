@@ -1,5 +1,5 @@
 # pokeLab
-Pokemon battle-oriented research, correlation studies and more.
+Pokemon battle-oriented research, correlation studies and more. Any collaborations are welcome!
 
 ------------
 ## Optimiser / damage lab
