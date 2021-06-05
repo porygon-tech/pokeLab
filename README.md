@@ -3,7 +3,7 @@ Pokemon battle-oriented research, correlation studies and more.
 
 ------------
 ## Optimiser / damage lab
-Optimal spread for defensive Effort Values (EVs).
+Optimal spread for defensive Effort Values (EVs) for a given base power move. Further stochastic analysis should be performed according to base power distributions (e.g. base power of ghost-type moves in OU metagame have a X distribution, so Wobbuffet's optimal EV spread in OU metagame will be A, while in Uber metagame will be B). This will take big efforts to be accurately studied. ¿Is it better to average all possible incoming damage scores? ¿Perhaps is it better to have an EV spread that minimises noise in expected damage?
 
 ------------
 ## Correlation studies
