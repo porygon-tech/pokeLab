@@ -1,0 +1,9 @@
+Porygon @ Eviolite
+Level: 5
+Ability: Download
+EVs: 36 Def / 236 SpA / 196 Spe
+Modest Nature
+- Tri Attack
+- Psychic
+- Ice Beam
+- Agility

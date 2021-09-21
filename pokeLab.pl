@@ -15,13 +15,17 @@ close(DATASET);
 open(DATASET, '>pkmnDB.csv');
 print DATASET ("NAME;Type 1;Type 2;Ability 1;Ability 2;Ability 3;Ability 4;HP;Atk;Def;SpA;SpD;Spe\n");
 
-	$data = get "https://www.smogon.com/dex/sm/pokemon/";
+	$data = get "https://www.smogon.com/dex/ss/pokemon/";
 	$data =~ s/<[^>]*>//g;
+#	print $data;
+
+
+
 
 
 $init = index($data, "pokemon"); #desde la posición init se iniciará la próxima búsqueda de index
 
-while ($dexID < 895) {	#Gen7: 895 (smogon)
+while ($init != -1) {
 	$init = index($data, "name", $init);
 	if ($init != 5) {
 		$init +=6;
@@ -62,12 +66,12 @@ while ($dexID < 895) {	#Gen7: 895 (smogon)
 #		print $rawDat."\n\n";
 
 #output formatting
-		$statFormat = join(";", @stats);
-		$typeFormat = join(";", @types);
-		$abltFormat = join(";", @abilities);
-		print DATASET ("$name;$typeFormat;$abltFormat;$statFormat\n");
+		$statFormat = join("\t", @stats);
+		$typeFormat = join("\t", @types);
+		$abltFormat = join("\t", @abilities);
+		print DATASET ("$name\t$typeFormat\t$abltFormat\t$statFormat\n");
 
-	$dexID++;
+	#$dexID++;
 }
-
+=cut
 close(DATASET);
